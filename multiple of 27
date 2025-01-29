@@ -1,0 +1,7 @@
+def is_multiple_of_27(number):
+    if number % 27 == 0:
+        return "Yes, the number is a multiple of 27."
+    else:
+        return "No, the number is not a multiple of 27."
+num = int(input("Enter a number: "))
+print(is_multiple_of_27(num))
