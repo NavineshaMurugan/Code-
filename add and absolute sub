@@ -1,0 +1,6 @@
+num1 = int(input("Enter the num1"))
+num2 = int(input("Enter the num2"))
+add= num1 + num2
+sub= abs(num1 - num2)
+print(f"add:{add}")
+print(f"sub:{sub}")
